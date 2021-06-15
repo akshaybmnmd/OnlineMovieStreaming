@@ -19,9 +19,6 @@
     }else {
 
         $_SESSION['admin'] = $row['admin'];
+        $_SESSION['id'] = $row['id'];
         header("Location: ../homepage.php");
       }
-
-    
-
-?>

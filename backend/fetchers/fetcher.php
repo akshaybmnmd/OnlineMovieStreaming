@@ -1,5 +1,5 @@
 <?php
-include '../dbh.php';
+// include '../dbh.php';
 include_once "functions.php";
 
 
@@ -23,8 +23,3 @@ include_once "functions.php";
       $i++;
     }
     echo"</div>";
-
-
-
-
-    ?>
